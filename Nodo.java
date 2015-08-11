@@ -8,4 +8,13 @@ public class Nodo<E>{
 	public void setNext(Nodo nodo){
 		next = nodo;
 	}
+	public Nodo getNext(){
+		return next;
+	}
+	public void setValue(E value){
+		this.value = value;
+	}
+	public E getValue(){
+		return value;
+	}
 }

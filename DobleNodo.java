@@ -9,5 +9,8 @@ public class DobleNodo<E> extends Nodo<E>{
 	public void setPrevious(Nodo nodo){
 		previous = nodo;
 	}
+	public Nodo getPrevious(){
+		return previous;
+	}
 	
 }
