@@ -7,14 +7,14 @@ contador=0;
 }
 
 public int size(){
-int elementCount=0;
+int elementos=0;
 
 Nodo<E> finger=head;
 while (finger != null){
-			elementCount++;
+			elementos++;
 			finger.setNext(finger.getNext());
 		}
-	return elementCount;
+	return elementos;
 }
 
 public void addFirst (E value){
